@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Hey There</p>
+    <p id="sometext"></p>
+    <script> //script src for js file.
+    let students =`[
+    {
+        "name": "zakiy",
+        "age": 25,
+        "height":173
+    },
+    {
+        "name": "hidayah",
+        "age": 23,
+        "height":160
+    }
+    ]`
+    console.log(JSON.parse(students)); //call whole JSON array element. JSON.parse change array to json.
+    console.log(JSON.parse(students)[1].age); //called specific parse element.
+
+    </script> 
+    
+    
+</body>
+</html>
